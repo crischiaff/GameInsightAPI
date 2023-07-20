@@ -1,0 +1,9 @@
+{
+    "verbose": false,
+    "signal": "SIGTERM",
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "ts",
+    "exec": "ts-node -- src/server.ts"
+}
